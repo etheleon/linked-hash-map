@@ -1,4 +1,4 @@
-(function() {
+export var LinkedHashMap (function() {
 
     /**
      * A utility that takes advantage on Javascript Object's power as a hashmap, and provide you insertion order.
@@ -68,7 +68,8 @@
                 return false;
             }
 
-            var fnScope = (scope || window);
+            //var fnScope = (scope || window);
+            var fnScope = (scope);
             var index = 0;
             var node = this.firstNode;
 
@@ -366,5 +367,5 @@
         }
 
     };
-
+    return LinkedHashMap
 })();
