@@ -1,4 +1,4 @@
-(function() {
+export var LinkedHashMap (function() {
 
     /**
      * A utility that takes advantage on Javascript Object's power as a hashmap, and provide you insertion order.
@@ -366,5 +366,5 @@
         }
 
     };
-
+    return LinkedHashMap
 })();
