@@ -68,7 +68,8 @@ export var LinkedHashMap (function() {
                 return false;
             }
 
-            var fnScope = (scope || window);
+            //var fnScope = (scope || window);
+            var fnScope = (scope);
             var index = 0;
             var node = this.firstNode;
 
